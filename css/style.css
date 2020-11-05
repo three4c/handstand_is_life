@@ -38,6 +38,12 @@ h1 {
   line-height: 1.2;
 }
 
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 6.4rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   h1 {
     font-size: 5.6rem;

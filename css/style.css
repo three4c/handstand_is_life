@@ -102,6 +102,7 @@ a:hover {
 p {
   font-size: 1.6rem;
   line-height: 2.4;
+  letter-spacing: 0.2px;
   text-align: justify;
 }
 

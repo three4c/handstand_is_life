@@ -127,6 +127,11 @@ form div {
   margin-bottom: 64px;
 }
 
+form div p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 input[type="text"],
 input[type="email"] {
   background-color: #eee;
@@ -149,17 +154,11 @@ input[type="email"]::placeholder {
 
 input[type="radio"] {
   display: none;
-  /* position: relative;
-  top: 2px;
-  margin-right: 8px;
-  height: 16px;
-  width: 16px; */
 }
 
 input[type="radio"] + label {
   padding-left: 24px;
   position: relative;
-  margin-right: 24px;
 }
 
 input[type="radio"] + label::before {

@@ -83,6 +83,16 @@ h2 span:last-child {
   font-size: 4.8rem;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
 p {
   font-size: 1.6rem;
   line-height: 2.4;
@@ -162,4 +172,9 @@ label {
 
 label:not(:last-child) {
   margin-right: 32px;
+}
+
+iframe {
+  margin-top: 64px;
+  width: 100%;
 }

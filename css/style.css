@@ -217,3 +217,12 @@ iframe {
   margin-top: 64px;
   width: 100%;
 }
+
+footer {
+  margin-bottom: 24px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.6rem;
+}

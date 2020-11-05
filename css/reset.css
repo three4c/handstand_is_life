@@ -135,9 +135,11 @@ table {
   border-spacing: 0;
 }
 
-input[type="text"],
-input[type="radio"],
-input[type="submit"] {
+input,
+button,
+select,
+textarea {
+  -webkit-appearance: none;
   margin: 0;
   padding: 0;
 }
